@@ -1,0 +1,23 @@
+.jc-head-content {
+    background-image: url('../../images/jc-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 3% 0 9% 0;
+    color: white;
+    border-bottom: 1px solid #3a3a3a;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: #000 0px 4px 16px;
+}
+.jc-head-content p {
+    font-size: 18px;
+}
+.jc-head-content h4 {
+    font-size: 22px;
+}
+
+.jc-head-content h1 {
+    margin: 0px;
+    font-size: 50px;
+    font-family: cursive;
+}
