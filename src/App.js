@@ -5,12 +5,8 @@ import Main from './Components/Main/Main';
 function App() {
   return (
     <div className="jc-app">
-      <header className="jc-head">
-        <Header></Header>
-      </header>
-      <main>
-        <Main></Main>
-      </main>
+      <Header></Header>
+      <Main></Main>
     </div>
   );
 }

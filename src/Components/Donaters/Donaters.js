@@ -1,9 +1,9 @@
-import React from 'react';
-
-const Donaters = () => {
+import Donater from '../Donater/Donater';
+import './Donaters.css'
+const Donaters = (props) => {
     return (
-        <div>
-
+        <div className="donaters-profiles">
+            <Donater donaterData={props}></Donater>
         </div>
     );
 };

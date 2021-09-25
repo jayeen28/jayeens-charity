@@ -1,0 +1,37 @@
+.donater-profile {
+    background-color: #313131;
+    padding: 20px 10px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 4px 0px #007ced;
+    border: .5px solid #007CEE;
+}
+.donater-img {
+    width: 50%;
+    margin: auto;
+}
+
+.donater-img img {
+    width: 100%;
+    border-radius: 100%;
+    border: 10px solid #444444;
+}
+.donater-info h4,.donater-info h3{
+    margin:6px 0px;
+}
+.donater-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.donater-footer button {
+    background-color: #333;
+    border: 2px solid #007CED;
+    height: 32px;
+    border-radius: 10px;
+    color: #F5F5F5;
+    font-size: 14px;
+    letter-spacing: .4px;
+}
+.donater-footer button:hover {
+    background-color: #007CED;
+}

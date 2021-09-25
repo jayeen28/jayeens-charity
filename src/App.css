@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+.container {
+  padding: 0 4%;
+}
+.jc-app {
+  background-color: #222222;
+  color: #F5F5F5;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
