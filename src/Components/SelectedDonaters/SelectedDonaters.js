@@ -7,6 +7,9 @@ const SelectedDonaters = props => {
             uniqueIds.push(element._id);
             uniqueScDonators.push(element);
         }
+        else {
+            console.log('You can not add same donators twice')
+        }
     });
     const { length } = uniqueScDonators;
     let expectedDonation = 0;
