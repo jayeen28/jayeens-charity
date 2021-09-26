@@ -1,7 +1,6 @@
 import React from 'react';
 import './Donater.css'
 const Donater = (props) => {
-    console.log(props)
     const { name, gender, ocupation, age, deposited, profileImage } = props.donaterData.donater;
     return (
         <div className="donater-profile">
@@ -15,7 +14,9 @@ const Donater = (props) => {
                 <h4>Age: {age}</h4>
                 <div className="donater-footer">
                     <h4>Deposited: {deposited}</h4>
-                    <button>Rquest to Donate</button>
+                    <button onClick={() => {
+                        props.donaterData.rqDonate(props.donaterData.donater);
+                    }}>Rquest to Donate</button>
                 </div>
             </div>
         </div>
