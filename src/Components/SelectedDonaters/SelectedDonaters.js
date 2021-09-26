@@ -1,11 +1,18 @@
-import React from 'react';
-import './SelectedDonaters.css'
-const SelectedDonaters = (props) => {
-    console.log(props.selectedDonaters);
-    const { length } = props.selectedDonaters;
+import './SelectedDonaters.css';
+const SelectedDonaters = props => {
+    let uniqueIds = [];
+    let uniqueScDonators = []
+    props.selectedDonaters.forEach(element => {
+        if (uniqueIds.indexOf(element._id) === -1) {
+            uniqueIds.push(element._id);
+            uniqueScDonators.push(element);
+        }
+    });
+    const { length } = uniqueScDonators;
     let expectedDonation = 0;
-    props.selectedDonaters.map(donator =>
+    uniqueScDonators.forEach(donator => {
         expectedDonation = expectedDonation + donator.deposited
+    }
     );
     return (
         <div className="selected-donaters">
@@ -13,7 +20,12 @@ const SelectedDonaters = (props) => {
             <div className="sc-donaters-card">
                 <h5>Total request: {length}</h5>
                 <h5>Total expected donation: {expectedDonation} </h5>
-                <h5>Donators names: </h5>
+                <h5>Donators names:{
+                    uniqueScDonators.map(donator =>
+                        <ul key={donator._id}>
+                            <li>{donator.name}</li>
+                        </ul>)
+                } </h5>
             </div>
         </div>
     );
