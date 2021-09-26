@@ -18,6 +18,10 @@
 .donater-info h4,.donater-info h3{
     margin:6px 0px;
 }
+.donater-info h4 {
+    font-weight: 400;
+    font-size: 15px;
+}
 .donater-footer {
     display: flex;
     justify-content: space-between;

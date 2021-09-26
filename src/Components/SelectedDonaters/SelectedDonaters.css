@@ -12,3 +12,11 @@
     background-color: #313131;
     box-shadow: 0px 0px 4px 0px #007ced;
 }
+.sc-donaters-card h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+ul.selected-donaters-list {
+    font-weight: 400;
+    font-size: 16px;
+}

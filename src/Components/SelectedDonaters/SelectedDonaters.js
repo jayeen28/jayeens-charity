@@ -22,7 +22,7 @@ const SelectedDonaters = props => {
                 <h5>Total expected donation: {expectedDonation} </h5>
                 <h5>Donators names:{
                     uniqueScDonators.map(donator =>
-                        <ul key={donator._id}>
+                        <ul key={donator._id} className="selected-donaters-list">
                             <li>{donator.name}</li>
                         </ul>)
                 } </h5>

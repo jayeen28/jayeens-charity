@@ -1,5 +1,7 @@
 import React from 'react';
-import './Donater.css'
+import './Donater.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDonate } from '@fortawesome/free-solid-svg-icons';
 const Donater = (props) => {
     const { name, gender, ocupation, age, deposited, profileImage } = props.donaterData.donater;
     return (
@@ -16,7 +18,7 @@ const Donater = (props) => {
                     <h4>Deposited: {deposited}</h4>
                     <button onClick={() => {
                         props.donaterData.rqDonate(props.donaterData.donater);
-                    }}>Rquest to Donate</button>
+                    }}><FontAwesomeIcon icon={faDonate} /> Rquest to Donate</button>
                 </div>
             </div>
         </div>
