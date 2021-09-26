@@ -5,4 +5,4 @@
 - In this site you can find your loyal donators and you can see how much they have deposited in their account for donation.
 - You can send a donate request to your loyal customers using this site.
 
-##  ****** NOTE: YOU CANNOT REQUEST SAME DONATORS TWICE ******
+##  ****** NOTE: YOU CANNOT REQUEST SAME LOYAL DONATOR TWICE ******
