@@ -21,7 +21,7 @@ const Main = () => {
                 <div className="main-contents">
                     <div className="jc-donaters">
                         <div className="donaters-head">
-                            <h2>Our loyal donater's</h2>
+                            <h2>Our loyal donator's</h2>
                         </div>
                         <div className="donaters-content">
                             {

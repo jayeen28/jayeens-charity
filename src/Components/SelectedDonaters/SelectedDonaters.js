@@ -16,7 +16,7 @@ const SelectedDonaters = props => {
     );
     return (
         <div className="selected-donaters">
-            <h2>Selected Donater's</h2>
+            <h2>Selected Donator's</h2>
             <div className="sc-donaters-card">
                 <h5>Total request: {length}</h5>
                 <h5>Total expected donation: {expectedDonation} </h5>
