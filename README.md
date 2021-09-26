@@ -1,3 +1,3 @@
 ### Welcome to Jayeen's charity project
 
-[Link to Google](https://www.google.com)
+[Click here to see the live site](https://jayeens-charity.netlify.app)
