@@ -29,6 +29,7 @@ const SelectedDonaters = props => {
                         }
                     </ul>
                 </h5>
+                <button className="send-request-btn">Send request</button>
             </div>
         </div>
     );
