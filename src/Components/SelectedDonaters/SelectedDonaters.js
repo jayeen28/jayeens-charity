@@ -20,12 +20,15 @@ const SelectedDonaters = props => {
             <div className="sc-donaters-card">
                 <h5>Total request: {length}</h5>
                 <h5>Total expected donation: {expectedDonation} </h5>
-                <h5>Donators names:{
-                    uniqueScDonators.map(donator =>
-                        <ul key={donator._id} className="selected-donaters-list">
-                            <li>{donator.name}</li>
-                        </ul>)
-                } </h5>
+                <h5>Donators names:
+                    <ul className="selected-donaters-list">
+                        {
+                            uniqueScDonators.map(donator =>
+                                <li key={donator._id} >{donator.name}</li>
+                            )
+                        }
+                    </ul>
+                </h5>
             </div>
         </div>
     );
