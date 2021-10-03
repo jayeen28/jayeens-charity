@@ -7,7 +7,7 @@ const Main = () => {
     const [donaters, setDonaters] = useState([]);
     const [selectedDonaters, setselectedDonaters] = useState([]);
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/partnersData.json')
+        fetch('https://raw.githubusercontent.com/Jayeen29/jayeens-charity/main/data-img/partnersData.json')
             .then(res => res.json())
             .then(data => setDonaters(data))
     }, []);
