@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "614f78d60d21328599dfd651",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-1.jpg",
+    "name": "MD. Jayeen Bin Alam",
+    "age": 20,
+    "gender": "Male",
+    "ocupation": "Web Developer",
+    "deposited": 2800,
+    "country": "Bangladesh"
+  },
+  {
+    "_id": "614f78d65634f5bfd2b055ac",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-2.jpg",
+    "name": "Price Nielsen",
+    "age": 19,
+    "gender": "Male",
+    "ocupation": "Businessman",
+    "deposited": 1000,
+    "country": "London"
+  },
+  {
+    "_id": "614f78d6e425fdb362ae99b5",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-3.jpg",
+    "name": "Kimberly Daniel",
+    "age": 25,
+    "gender": "Female",
+    "ocupation": "Charterd Accountant",
+    "deposited": 2000,
+    "country": "Canada"
+  },
+  {
+    "_id": "614f78d6546d1b42c87cc468",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-4.jpg",
+    "name": "Bernadine Beasley",
+    "age": 23,
+    "gender": "Male",
+    "ocupation": "Engineer",
+    "deposited": 4000,
+    "country": "Swiden"
+  },
+  {
+    "_id": "614f78d61c09a35fde246850",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-5.jpg",
+    "name": "Patricia Shepard",
+    "age": 30,
+    "gender": "Male",
+    "ocupation": "Teacher",
+    "deposited": 2500,
+    "country": "Dubai"
+  },
+  {
+    "_id": "614f78d6e8c90fa9b199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-6.jpg",
+    "name": "Webster Guy",
+    "age": 21,
+    "gender": "Male",
+    "ocupation": "Banker",
+    "deposited": 3400,
+    "country": "Thiland"
+  },
+  {
+    "_id": "614f78d6e8c90fa9b199e66B",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-7.jpg",
+    "name": "Gregory Trevino",
+    "age": 34,
+    "gender": "Male",
+    "ocupation": "Software Developer",
+    "deposited": 2300,
+    "country": "Finland"
+  },
+  {
+    "_id": "614f78d6e8B90fa9V199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-8.jpg",
+    "name": "Schneider Prince",
+    "age": 32,
+    "gender": "Male",
+    "ocupation": "Epidemiologist.",
+    "deposited": 3100,
+    "country": "Iceland"
+  },
+  {
+    "_id": "614f78d6e8c90fL9b199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-9.jpg",
+    "name": "Simpson Macias",
+    "age": 17,
+    "gender": "Male",
+    "ocupation": "Animator",
+    "deposited": 2600,
+    "country": "Kazakhstan"
+  },
+  {
+    "_id": "614f78d6e8c96fa9b199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-10.jpg",
+    "name": "Levine Valenzuela",
+    "age": 26,
+    "gender": "Male",
+    "ocupation": "Curator",
+    "deposited": 2200,
+    "country": "Liberia"
+  },
+  {
+    "_id": "614f78d6e5c90fa9b199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-11.jpg",
+    "name": "Lesley Ware",
+    "age": 36,
+    "gender": "Male",
+    "ocupation": "Photojournalist",
+    "deposited": 1000,
+    "country": "Monaco"
+  },
+  {
+    "_id": "614f78d6e8c90fa9v199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-12.jpg",
+    "name": "Chaney Contreras",
+    "age": 22,
+    "gender": "Male",
+    "ocupation": "Writer",
+    "deposited": 4000,
+    "country": "Mexico"
+  },
+  {
+    "_id": "614f78d6a8c90fa9b199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-13.jpg",
+    "name": "Greer Jacobs",
+    "age": 26,
+    "gender": "Male",
+    "ocupation": "Web designer",
+    "deposited": 2900,
+    "country": "Nepal"
+  },
+  {
+    "_id": "614f78d6e4c90fa9b199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-14.jpg",
+    "name": "Kirkland Lee",
+    "age": 29,
+    "gender": "Male",
+    "ocupation": "Singer",
+    "deposited": 2435,
+    "country": "Philippines"
+  },
+  {
+    "_id": "614f68d6e8c90fa9b199e66a",
+    "profileImage": "https://raw.githubusercontent.com/Jayeen29/api-img-for-assignment/main/images/profile-image-15.jpg",
+    "name": "Riddle Tran",
+    "age": 30,
+    "gender": "Male",
+    "ocupation": "Lyricist",
+    "deposited": 3564,
+    "country": "Spain"
+  }
+]
